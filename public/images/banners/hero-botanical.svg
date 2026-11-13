@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="900" height="900" role="img" aria-label="Decorative Unani botanical line illustration">
+  <g fill="none" stroke="#008348" stroke-width="2" stroke-linecap="round" opacity="0.5">
+    <path d="M460 820C430 640 448 470 540 300C590 210 640 150 700 100"/>
+    <path d="M500 640C460 610 410 604 360 620"/>
+    <path d="M520 540C570 500 620 488 680 500"/>
+    <path d="M548 440C510 430 470 400 444 360"/>
+    <path d="M572 340C610 330 650 300 676 264"/>
+    <path d="M490 700C450 692 408 668 380 634"/>
+  </g>
+  <g fill="#008348" opacity="0.10">
+    <path d="M500 640C500 590 530 552 580 532C596 580 566 624 500 640Z"/>
+    <path d="M520 540C530 496 564 466 614 452C626 498 596 534 520 540Z"/>
+    <path d="M548 440C556 402 588 374 632 362C642 402 614 432 548 440Z"/>
+    <path d="M490 700C492 656 516 620 560 600C574 642 548 682 490 700Z"/>
+    <path d="M572 340C578 306 604 280 644 268C654 302 630 330 572 340Z"/>
+  </g>
+  <g fill="none" stroke="#171B68" stroke-width="1.4" stroke-linecap="round" opacity="0.18">
+    <circle cx="700" cy="620" r="150"/>
+    <circle cx="700" cy="620" r="196" stroke-dasharray="2 14"/>
+    <circle cx="220" cy="300" r="90"/>
+  </g>
+  <g fill="#E31E24" opacity="0.35">
+    <circle cx="740" cy="250" r="4"/>
+    <circle cx="770" cy="250" r="4"/>
+    <circle cx="800" cy="250" r="4"/>
+  </g>
+</svg>

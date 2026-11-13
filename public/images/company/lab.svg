@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Illustration of a quality control laboratory with glassware and testing equipment">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3f8f5"/>
+      <stop offset="100%" stop-color="#e7f1eb"/>
+    </linearGradient>
+    <linearGradient id="liquid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#17a262"/>
+      <stop offset="100%" stop-color="#007740"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b4bb5"/>
+      <stop offset="100%" stop-color="#171B68"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#wall)"/>
+  <rect x="60" y="70" width="1080" height="430" rx="16" fill="#ffffff" opacity="0.55"/>
+  <rect x="120" y="120" width="360" height="240" rx="12" fill="#dceee4"/>
+  <path d="M120 300L250 210L370 300L480 240V360H120Z" fill="#a9cfba" opacity="0.6"/>
+  <circle cx="400" cy="180" r="34" fill="#ffffff" opacity="0.8"/>
+
+  <rect x="660" y="120" width="420" height="14" rx="7" fill="#171B68" opacity="0.16"/>
+  <g>
+    <rect x="690" y="150" width="52" height="96" rx="8" fill="#008348" opacity="0.28"/>
+    <rect x="768" y="174" width="52" height="72" rx="8" fill="#E31E24" opacity="0.22"/>
+    <rect x="846" y="140" width="52" height="106" rx="8" fill="#171B68" opacity="0.2"/>
+    <rect x="924" y="162" width="52" height="84" rx="8" fill="#b7791f" opacity="0.25"/>
+  </g>
+
+  <rect x="0" y="680" width="1200" height="220" fill="#d9e8df"/>
+  <rect x="0" y="660" width="1200" height="36" fill="#c4dacd"/>
+  <rect x="90" y="540" width="1020" height="26" rx="8" fill="#f8fbf9" stroke="#cfe0d6"/>
+  <rect x="90" y="566" width="1020" height="94" fill="#eef5f0"/>
+  <rect x="140" y="596" width="150" height="64" rx="8" fill="#ffffff" opacity="0.8"/>
+  <rect x="860" y="590" width="210" height="70" rx="8" fill="#ffffff" opacity="0.8"/>
+
+  <g>
+    <path d="M250 540V430H290V540" fill="#ffffff" stroke="#b9d4c6" stroke-width="3"/>
+    <path d="M244 540V478C244 456 258 440 280 440H300C322 440 336 456 336 478V540Z" fill="#dff0e7"/>
+    <path d="M252 510C262 492 280 486 294 492C310 498 322 512 326 540H250Z" fill="url(#liquid)"/>
+    <rect x="292" y="430" width="42" height="8" rx="4" fill="#ffffff" stroke="#b9d4c6" stroke-width="3"/>
+  </g>
+  <g>
+    <path d="M390 540L430 400H462L502 540Z" fill="#eaf6ef" stroke="#b9d4c6" stroke-width="3"/>
+    <path d="M404 500L422 432H470L488 500Z" fill="url(#liquid)" opacity="0.9"/>
+    <rect x="420" y="390" width="52" height="14" rx="7" fill="#ffffff" stroke="#b9d4c6" stroke-width="3"/>
+  </g>
+  <g>
+    <rect x="552" y="430" width="66" height="110" rx="10" fill="#eaf6ef" stroke="#b9d4c6" stroke-width="3"/>
+    <rect x="562" y="478" width="46" height="52" rx="4" fill="url(#blue)" opacity="0.85"/>
+    <rect x="540" y="420" width="90" height="14" rx="7" fill="#ffffff" stroke="#b9d4c6" stroke-width="3"/>
+  </g>
+  <g>
+    <path d="M690 540C690 486 726 470 750 470C774 470 810 486 810 540" fill="none" stroke="#171B68" stroke-width="12" stroke-linecap="round"/>
+    <rect x="738" y="540" width="24" height="10" rx="5" fill="#171B68"/>
+    <path d="M700 540V600H800V540" fill="none" stroke="#171B68" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g transform="rotate(-4 940 480)">
+    <rect x="900" y="420" width="120" height="150" rx="8" fill="#ffffff" stroke="#cfe0d6" stroke-width="3"/>
+    <rect x="900" y="420" width="120" height="30" rx="8" fill="#171B68"/>
+    <line x1="922" y1="478" x2="998" y2="478" stroke="#171B68" stroke-width="4" opacity="0.2"/>
+    <line x1="922" y1="500" x2="998" y2="500" stroke="#171B68" stroke-width="4" opacity="0.2"/>
+    <line x1="922" y1="522" x2="970" y2="522" stroke="#171B68" stroke-width="4" opacity="0.2"/>
+    <circle cx="960" cy="546" r="12" fill="#008348" opacity="0.25"/>
+  </g>
+
+  <g fill="#008348" opacity="0.2">
+    <circle cx="160" cy="120" r="5"/>
+    <circle cx="186" cy="120" r="5"/>
+    <circle cx="212" cy="120" r="5"/>
+  </g>
+</svg>

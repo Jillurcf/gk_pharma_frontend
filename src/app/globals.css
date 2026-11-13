@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #008348;
+  --color-brand-dark: #00693a;
+  --color-brand-deep: #034e2d;
+  --color-brand-light: #e6f4ee;
+  --color-brand-50: #f2faf6;
+  --color-accent: #e31e24;
+  --color-accent-light: #fdf2f1;
+  --color-navy: #171b68;
+  --color-navy-dark: #10133f;
+  --color-ink: #202124;
+  --color-muted: #56665d;
+  --color-surface: #f5f8f4;
+  --color-line: #e2e9e2;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    sans-serif;
+  --font-display: var(--font-jakarta), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", sans-serif;
+
+  --shadow-soft: 0 1px 2px rgba(23, 27, 104, 0.04), 0 14px 40px -24px rgba(23, 27, 104, 0.18);
+  --shadow-card: 0 1px 2px rgba(23, 27, 104, 0.05), 0 18px 45px -28px rgba(23, 27, 104, 0.24);
+  --shadow-lift: 0 2px 4px rgba(23, 27, 104, 0.06), 0 26px 60px -30px rgba(23, 27, 104, 0.3);
+
+  --radius-4xl: 2rem;
+
+  --animate-fade-up: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-fade-in: fade-in 0.9s ease both;
+  --animate-float: float 8s ease-in-out infinite;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+    color: var(--color-navy);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background-color: rgba(0, 131, 72, 0.16);
+    color: var(--color-navy);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  a,
+  button,
+  input,
+  select,
+  textarea {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .bg-grid-soft {
+    background-image:
+      linear-gradient(to right, rgba(23, 27, 104, 0.035) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(23, 27, 104, 0.035) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+
+  .bg-radial-brand {
+    background-image: radial-gradient(
+      ellipse at 70% 20%,
+      rgba(0, 131, 72, 0.12),
+      transparent 58%
+    );
+  }
+
+  .mask-fade-b {
+    mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

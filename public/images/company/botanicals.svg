@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Illustration of botanical herb cultivation rows under a soft sun">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2f8f4"/>
+      <stop offset="100%" stop-color="#dcece3"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a9cfba"/>
+      <stop offset="100%" stop-color="#7fb798"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="900" cy="170" r="86" fill="#008348" opacity="0.10"/>
+  <circle cx="900" cy="170" r="120" fill="none" stroke="#008348" stroke-width="1.6" stroke-dasharray="3 14" opacity="0.3"/>
+  <path d="M0 380C200 330 360 360 540 390C760 426 980 386 1200 340V520H0Z" fill="#c3ddcd" opacity="0.8"/>
+  <path d="M0 470C240 430 440 460 660 490C880 520 1040 490 1200 460V900H0Z" fill="url(#field)"/>
+
+  <g stroke="#4d8a67" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M-60 900C180 720 400 640 660 600C880 566 1080 540 1260 500"/>
+    <path d="M120 900C320 760 520 690 760 650C940 620 1080 600 1240 570"/>
+    <path d="M360 900C520 800 700 740 900 710C1040 688 1140 670 1250 650"/>
+    <path d="M620 900C740 830 880 788 1040 766C1130 752 1190 742 1250 732"/>
+  </g>
+
+  <g fill="#008348">
+    <g opacity="0.55">
+      <path d="M250 620C220 660 220 706 250 744C280 706 280 660 250 620Z"/>
+      <path d="M250 690C216 676 198 648 196 614C230 624 250 650 250 690Z"/>
+      <path d="M250 690C284 676 302 648 304 614C270 624 250 650 250 690Z"/>
+    </g>
+    <g opacity="0.45">
+      <path d="M480 690C456 722 456 758 480 788C504 758 504 722 480 690Z"/>
+      <path d="M480 748C452 736 438 714 436 686C464 694 480 716 480 748Z"/>
+      <path d="M480 748C508 736 522 714 524 686C496 694 480 716 480 748Z"/>
+    </g>
+    <g opacity="0.5">
+      <path d="M720 742C700 768 700 796 720 820C740 796 740 768 720 742Z"/>
+      <path d="M720 788C698 778 686 760 684 738C706 744 720 762 720 788Z"/>
+      <path d="M720 788C742 778 754 760 756 738C734 744 720 762 720 788Z"/>
+    </g>
+    <g opacity="0.4">
+      <path d="M960 780C944 800 944 822 960 842C976 822 976 800 960 780Z"/>
+      <path d="M960 816C942 808 932 794 930 776C948 782 960 796 960 816Z"/>
+      <path d="M960 816C978 808 988 794 990 776C972 782 960 796 960 816Z"/>
+    </g>
+  </g>
+
+  <g opacity="0.3" fill="#171B68">
+    <path d="M60 520C130 470 210 448 290 456C250 500 170 520 60 520Z"/>
+    <path d="M940 400C1020 360 1100 350 1180 366C1130 404 1040 418 940 400Z"/>
+  </g>
+
+  <g fill="#ffffff" opacity="0.55">
+    <circle cx="380" cy="210" r="6"/>
+    <circle cx="440" cy="250" r="4"/>
+    <circle cx="320" cy="260" r="4"/>
+    <circle cx="560" cy="200" r="5"/>
+  </g>
+</svg>

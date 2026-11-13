@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1200" width="1000" height="1200" role="img" aria-label="Illustration of traditional Unani preparation vessels, botanicals and a mortar and pestle">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef6f1"/>
+      <stop offset="100%" stop-color="#e2efe8"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c98a2e"/>
+      <stop offset="100%" stop-color="#9c6517"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d8f52"/>
+      <stop offset="100%" stop-color="#006337"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1200" fill="url(#bg)"/>
+  <path d="M200 1140V560C200 380 334 236 500 236C666 236 800 380 800 560V1140Z" fill="#faf6ec"/>
+  <path d="M200 1140V560C200 380 334 236 500 236C666 236 800 380 800 560V1140" fill="none" stroke="#008348" stroke-opacity="0.18" stroke-width="3"/>
+  <circle cx="500" cy="520" r="236" fill="#008348" opacity="0.06"/>
+  <circle cx="500" cy="520" r="196" fill="none" stroke="#008348" stroke-width="2" stroke-dasharray="3 12" opacity="0.25"/>
+
+  <ellipse cx="500" cy="990" rx="300" ry="34" fill="#171b68" opacity="0.10"/>
+  <rect x="666" y="520" width="84" height="30" rx="12" fill="#171B68"/>
+  <rect x="694" y="545" width="28" height="40" fill="#171B68" opacity="0.85"/>
+  <path d="M654 590C654 572 668 558 686 558H706C724 558 738 572 738 590V900C738 936 710 964 674 964H690C654 964 626 936 626 900V590Z" fill="url(#amber)"/>
+  <rect x="654" y="670" width="60" height="150" rx="8" fill="#fffdf7" opacity="0.92"/>
+  <text x="684" y="710" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.5" fill="#875717">GK</text>
+  <text x="684" y="752" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="7" letter-spacing="1" fill="#875717">DEMO</text>
+
+  <rect x="268" y="610" width="120" height="34" rx="14" fill="#171B68"/>
+  <path d="M286 640H370V860C370 898 340 928 302 928H354C316 928 286 898 286 860Z" fill="url(#green)"/>
+  <rect x="298" y="700" width="60" height="140" rx="8" fill="#FFFDF7" opacity="0.9"/>
+  <text x="328" y="740" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1" fill="#005c33">GK</text>
+  <text x="328" y="780" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="6.5" letter-spacing="1" fill="#005c33">DEMO</text>
+
+  <path d="M430 800H570C588 800 600 816 600 836V884C600 924 566 956 526 956H474C434 956 400 924 400 884V836C400 816 412 800 430 800Z" fill="#171B68"/>
+  <path d="M452 790C452 776 462 766 476 766H524C538 766 548 776 548 790" fill="none" stroke="#2b3082" stroke-width="16" stroke-linecap="round"/>
+  <path d="M556 812L652 700" stroke="#8a5a3b" stroke-width="20" stroke-linecap="round"/>
+  <path d="M652 700L674 674" stroke="#b07a52" stroke-width="26" stroke-linecap="round"/>
+  <ellipse cx="500" cy="882" rx="86" ry="16" fill="#ffffff" opacity="0.08"/>
+
+  <path d="M180 1130C230 980 280 900 360 840" fill="none" stroke="#008348" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M262 950C268 908 294 880 336 866C346 904 322 934 262 950Z" fill="#008348" opacity="0.28"/>
+  <path d="M320 884C330 846 358 822 400 812C408 846 384 872 320 884Z" fill="#008348" opacity="0.22"/>
+  <path d="M210 1050C222 1012 250 988 290 980C296 1012 272 1036 210 1050Z" fill="#008348" opacity="0.2"/>
+  <path d="M800 1120C770 1000 720 930 650 880" fill="none" stroke="#008348" stroke-width="2.4" stroke-linecap="round" opacity="0.45"/>
+  <path d="M740 1000C736 962 712 936 674 924C664 958 686 986 740 1000Z" fill="#008348" opacity="0.22"/>
+
+  <g fill="none" stroke="#008348" stroke-width="2" stroke-linecap="round" opacity="0.35">
+    <path d="M500 236V130"/>
+    <path d="M500 180C470 160 450 130 446 96"/>
+    <path d="M500 200C530 180 552 152 558 118"/>
+  </g>
+  <path d="M446 96C476 100 498 116 500 150C470 146 450 128 446 96Z" fill="#008348" opacity="0.25"/>
+  <path d="M558 118C530 120 510 136 506 166C534 164 552 148 558 118Z" fill="#008348" opacity="0.2"/>
+
+  <g fill="#E31E24" opacity="0.5">
+    <circle cx="210" cy="340" r="5"/>
+    <circle cx="242" cy="340" r="5"/>
+    <circle cx="274" cy="340" r="5"/>
+  </g>
+</svg>
