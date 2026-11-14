@@ -13,7 +13,7 @@ no decorative gradients except very soft brand-tinted backgrounds.
 ## Color usage
 - Green: primary actions, links, eyebrow accents, active states.
 - Navy: footer, utility bar, premium feature panel, headings on light panels.
-- Red: small accents only (notification dot, demo badge border, category tone).
+- Red: small accents only (notification dot, warning badge border, category tone).
 - Light background `#F7FAF8` for alternating sections.
 - Borders: `#E3EBE6`; muted text: `#5B6B62`.
 

@@ -1,9 +1,9 @@
 export const SITE = {
   name: "GK Pharma (Unani) Limited",
   shortName: "GK Pharma",
-  tagline: "Unani medicine, thoughtfully presented.",
+  tagline: "প্রকৃতির মাঝে প্রকৃত চিকিৎসা",
   description:
-    "GK Pharma (Unani) Limited is a Unani medicine manufacturer based in Tongi, Gazipur, Bangladesh. Explore our company profile and demonstration product catalogue.",
+    "GK Pharma (Unani) Limited is a Unani medicine manufacturer based in Tongi, Gazipur, Bangladesh. Explore our company profile and product catalogue.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://gk-pharma.example.com",
   locale: "en_BD",
   address: {
@@ -17,8 +17,6 @@ export const SITE = {
     phonePlaceholder: "+880 1XXX-XXXXXX",
     emailPlaceholder: "info@gk-pharma.example",
   },
-  demoNotice:
-    "The product catalogue on this website is demonstration content. It does not represent official GK Pharma product information until verified data is published.",
 } as const;
 
 export const NAV_LINKS = [

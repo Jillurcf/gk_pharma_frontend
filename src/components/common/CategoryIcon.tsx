@@ -1,22 +1,18 @@
 import {
-  Bone,
-  Flower2,
-  HeartPulse,
-  Sparkles,
-  Sprout,
-  Wind,
+  Droplet,
+  Pill,
+  Stethoscope,
+  Tablets,
   type LucideIcon,
 } from "lucide-react";
 import type { CategoryTone } from "@/types/product";
 import { cn } from "@/lib/utils";
 
 const icons: Record<string, LucideIcon> = {
-  sprout: Sprout,
-  "heart-pulse": HeartPulse,
-  wind: Wind,
-  bone: Bone,
-  flower: Flower2,
-  sparkles: Sparkles,
+  droplet: Droplet,
+  capsule: Pill,
+  tablet: Tablets,
+  clinical: Stethoscope,
 };
 
 const tones: Record<CategoryTone, string> = {
@@ -41,7 +37,7 @@ export function CategoryIcon({
   className,
   iconClassName,
 }: CategoryIconProps) {
-  const Icon = icons[icon] ?? Sprout;
+  const Icon = icons[icon] ?? Droplet;
 
   return (
     <span

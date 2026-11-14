@@ -25,13 +25,11 @@
   <path d="M654 590C654 572 668 558 686 558H706C724 558 738 572 738 590V900C738 936 710 964 674 964H690C654 964 626 936 626 900V590Z" fill="url(#amber)"/>
   <rect x="654" y="670" width="60" height="150" rx="8" fill="#fffdf7" opacity="0.92"/>
   <text x="684" y="710" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.5" fill="#875717">GK</text>
-  <text x="684" y="752" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="7" letter-spacing="1" fill="#875717">DEMO</text>
 
   <rect x="268" y="610" width="120" height="34" rx="14" fill="#171B68"/>
   <path d="M286 640H370V860C370 898 340 928 302 928H354C316 928 286 898 286 860Z" fill="url(#green)"/>
   <rect x="298" y="700" width="60" height="140" rx="8" fill="#FFFDF7" opacity="0.9"/>
   <text x="328" y="740" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1" fill="#005c33">GK</text>
-  <text x="328" y="780" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="6.5" letter-spacing="1" fill="#005c33">DEMO</text>
 
   <path d="M430 800H570C588 800 600 816 600 836V884C600 924 566 956 526 956H474C434 956 400 924 400 884V836C400 816 412 800 430 800Z" fill="#171B68"/>
   <path d="M452 790C452 776 462 766 476 766H524C538 766 548 776 548 790" fill="none" stroke="#2b3082" stroke-width="16" stroke-linecap="round"/>

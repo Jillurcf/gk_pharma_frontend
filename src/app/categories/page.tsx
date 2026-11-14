@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { ArrowRight, Mail } from "lucide-react";
 import { Container } from "@/components/common/Container";
 import { PageHero } from "@/components/common/PageHero";
-import { DemoNotice } from "@/components/common/DemoNotice";
 import { Badge } from "@/components/common/Badge";
 import { Button } from "@/components/common/Button";
 import { CategoryCard } from "@/components/products/CategoryCard";
@@ -13,7 +12,7 @@ import { createPageMetadata } from "@/lib/seo";
 export const metadata: Metadata = createPageMetadata({
   title: "Product Categories",
   description:
-    "Browse GK Pharma (Unani) Limited demonstration product categories, from herbal and botanical preparations to general wellness and tonics.",
+    "Browse GK Pharma (Unani) Limited product categories: liquid products, capsule products, tablet products and clinical items.",
   path: "/categories",
 });
 
@@ -23,7 +22,7 @@ export default function CategoriesPage() {
       <PageHero
         eyebrow="Product categories"
         title="Find the right part of the catalogue"
-        description="Explore six editable focus areas that organise the demonstration product range. Selecting a category opens the catalogue with that filter already applied."
+        description="Explore four focus areas that organise the product range. Selecting a category opens the catalogue with that filter already applied."
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "Product Categories" },
@@ -34,15 +33,13 @@ export default function CategoriesPage() {
             {categories.length} categories
           </Badge>
           <Badge tone="outline" className="bg-white">
-            {products.length} demo products
+            {products.length} products
           </Badge>
-          <Badge tone="demo">Catalogue data pending verification</Badge>
         </div>
       </PageHero>
 
       <section className="bg-white py-12 sm:py-16">
         <Container>
-          <DemoNotice className="mb-8" />
           <div className="mb-6 flex items-end justify-between gap-4">
             <div>
               <h2 className="text-2xl font-bold text-navy">All categories</h2>

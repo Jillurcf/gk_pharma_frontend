@@ -28,7 +28,7 @@ export function ProductCard({ product, className }: ProductCardProps) {
         >
           <Image
             src={product.image}
-            alt={`${product.name} demonstration pack visual`}
+            alt={`${product.name} product visual`}
             fill
             sizes="(min-width: 1280px) 300px, (min-width: 768px) 33vw, (min-width: 640px) 45vw, 90vw"
             className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
@@ -37,9 +37,6 @@ export function ProductCard({ product, className }: ProductCardProps) {
             <Badge tone="outline" className="bg-white/90 backdrop-blur">
               {categoryName}
             </Badge>
-          </span>
-          <span className="absolute right-3.5 top-3.5">
-            <Badge tone="demo">Demo</Badge>
           </span>
         </Link>
       </div>

@@ -87,7 +87,7 @@ export function productJsonLd({
     "@context": "https://schema.org",
     "@type": "Product",
     name,
-    description: `${description} Demonstration catalogue entry only — not an official GK Pharma product.`,
+    description,
     image: absoluteUrl(image),
     category,
     url: absoluteUrl(`/products/${slug}`),

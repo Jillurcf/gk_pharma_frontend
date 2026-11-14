@@ -39,7 +39,7 @@ export function CategoryCard({ category, count, className, priority = false }: C
           />
         </span>
         <span className="absolute right-4 top-4 rounded-full border border-line bg-white/90 px-2.5 py-1 text-[10.5px] font-semibold text-muted backdrop-blur">
-          {count} demo {count === 1 ? "product" : "products"}
+          {count} {count === 1 ? "product" : "products"}
         </span>
       </div>
       <div className="flex flex-1 flex-col p-5">

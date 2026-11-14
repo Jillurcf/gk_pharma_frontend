@@ -33,8 +33,7 @@ export function Footer() {
             <Logo variant="light" size="md" />
             <p className="mt-5 max-w-sm text-[13.5px] leading-relaxed text-white/60">
               A Unani medicine manufacturer based in Tongi, Gazipur, Bangladesh. This
-              website presents our company profile and an editable demonstration product
-              catalogue.
+              website presents our company profile and product catalogue.
             </p>
             <SocialLinks className="mt-6" />
             <p className="mt-5 text-[11px] leading-relaxed text-white/60">
@@ -128,12 +127,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-3 text-[11.5px] leading-relaxed text-white/60">
-          <span className="font-semibold text-white/70">Demo catalogue notice: </span>
-          {SITE.demoNotice}
-        </div>
-
-        <div className="mt-8 flex flex-col items-start justify-between gap-3 border-t border-white/10 pt-6 text-[12px] text-white/60 sm:flex-row sm:items-center">
+        <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-white/10 pt-6 text-[12px] text-white/60 sm:flex-row sm:items-center">
           <p>
             © {year} {SITE.name}. All rights reserved.
           </p>

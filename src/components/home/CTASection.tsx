@@ -28,8 +28,8 @@ export function CTASection() {
               Ready to explore the GK Pharma range?
             </h2>
             <p className="mt-4 text-[15px] leading-relaxed text-white/80">
-              Browse the demonstration catalogue by category, or contact the company for
-              product enquiries and future verified product information.
+              Browse the product catalogue by category, or contact the company for product
+              enquiries and company information.
             </p>
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <Button href="/products" variant="white" size="lg" icon={ArrowRight}>

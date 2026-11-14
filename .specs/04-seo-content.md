@@ -12,7 +12,7 @@
 ## Structured data
 - Organization JSON-LD on the homepage: name, legal name, verified address, logo.
   No invented phone/email/social URLs.
-- Product JSON-LD on product pages with demo disclaimer in the description.
+- Product JSON-LD on product pages with product information in the description.
 - Breadcrumb JSON-LD on product detail pages.
 
 ## Heading hierarchy
@@ -23,5 +23,4 @@ One `h1` per page; sections use `h2`; cards use `h3`.
   approvals.
 - Ingredients/usage fields use explicit pending-verification placeholders.
 - No certification logos or badges until verified.
-- Demo catalogue notice appears on products, categories and product details.
 - Enquiry form success message states no email was sent.

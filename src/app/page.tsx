@@ -12,7 +12,7 @@ import { safeJsonLd } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "GK Pharma (Unani) Limited | Unani Medicine Manufacturer in Bangladesh",
   description:
-    "GK Pharma (Unani) Limited is a Unani medicine manufacturer based at Station Road, Tongi, Gazipur, Bangladesh. Explore the company profile, quality approach and demonstration product catalogue.",
+    "GK Pharma (Unani) Limited is a Unani medicine manufacturer based at Station Road, Tongi, Gazipur, Bangladesh. Explore the company profile, quality approach and product catalogue.",
   alternates: { canonical: "/" },
 };
 

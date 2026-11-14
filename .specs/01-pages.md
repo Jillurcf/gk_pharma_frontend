@@ -1,7 +1,7 @@
 # Pages & Sections
 
 ## `/` Home
-Navbar, hero, company intro (mission/vision), 8 featured products, 6 categories,
+Navbar, hero, company intro (mission/vision), 8 featured products, 4 categories,
 "Why choose GK Pharma" (no unsupported claims), quality/manufacturing overview,
 CTA, footer. Organization JSON-LD.
 
@@ -19,12 +19,12 @@ Server page with heading + intro and a suspended client catalogue.
 
 ## `/products/[slug]`
 Static params for all products. Two-column desktop, single-column mobile.
-Breadcrumb, image, name, category, demo notice, description, overview, ingredients
-placeholder, form, packaging, usage placeholder, storage, manufacturer, enquiry CTA,
-related products, back link. Product JSON-LD + metadata.
+Breadcrumb, image, name, category, description, overview, ingredients placeholder, form,
+packaging, usage placeholder, storage, manufacturer, enquiry CTA, related products, back
+link. Product JSON-LD + metadata.
 
 ## `/categories`
-Six editable categories with icon art, description, live demo product count and
+Four editable categories with icon art, description, live product count and
 "Explore category" links into the filtered catalogue.
 
 ## `/quality`
@@ -33,7 +33,7 @@ Manufacturing philosophy, sourcing, production, QC steps, factory/lab illustrati
 
 ## `/contact`
 Verified address, placeholder phone/email, map placeholder, social placeholders,
-accessible validated form. Success state explicitly says the demo does not send email.
+accessible validated form. Success state explicitly says no email is sent.
 Supports `?product=` prefill from product pages.
 
 ## Global

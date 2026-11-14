@@ -15,8 +15,6 @@ export interface Product {
   usage?: string;
   storage?: string;
   featured: boolean;
-  /** Marks demonstration data that must not be presented as an official product. */
-  demo: boolean;
 }
 
 export type CategoryTone = "green" | "red" | "navy" | "amber" | "teal" | "plum";

@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 
-type BadgeTone = "brand" | "navy" | "red" | "neutral" | "outline" | "demo";
+type BadgeTone = "brand" | "navy" | "red" | "neutral" | "outline";
 
 const tones: Record<BadgeTone, string> = {
   brand: "bg-brand-light text-brand-dark",
@@ -8,7 +8,6 @@ const tones: Record<BadgeTone, string> = {
   red: "bg-accent-light text-[#b5161c]",
   neutral: "bg-surface text-muted",
   outline: "border border-line bg-white text-muted",
-  demo: "border border-accent/25 bg-accent-light text-[#b5161c]",
 };
 
 interface BadgeProps {

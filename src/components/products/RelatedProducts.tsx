@@ -19,8 +19,8 @@ export function RelatedProducts({ products, categorySlug }: RelatedProductsProps
       <Container>
         <SectionHeading
           eyebrow="Related products"
-          title="More from the demonstration catalogue"
-          description="Continue exploring sample entries grouped by category. All items remain clearly marked demonstration content."
+          title="More from the product catalogue"
+          description="Continue exploring products grouped by category."
           action={
             <Link
               href={`/products?category=${categorySlug}`}

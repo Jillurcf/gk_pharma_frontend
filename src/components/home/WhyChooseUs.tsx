@@ -34,7 +34,7 @@ const reasons = [
     icon: Leaf,
     title: "Botanical foundations",
     description:
-      "Herbal and botanical formats are featured throughout the demonstration catalogue, reflecting the Unani approach.",
+      "Herbal and botanical formats are featured throughout the product catalogue, reflecting the Unani approach.",
   },
   {
     icon: PackageCheck,
@@ -70,8 +70,7 @@ export function WhyChooseUs() {
           />
           <p className="mt-5 text-[14.5px] leading-relaxed text-muted">
             Official certifications, regulatory approvals and verified product claims
-            will be published only when supporting documentation is available. Until
-            then, demonstration content remains clearly identified.
+            will be published only when supporting documentation is available.
           </p>
           <Link
             href="/quality"

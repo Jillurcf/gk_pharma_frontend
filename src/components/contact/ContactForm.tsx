@@ -107,9 +107,8 @@ export function ContactForm() {
         </span>
         <h2 className="mt-5 text-2xl font-bold text-navy">Your details were validated</h2>
         <p className="mt-3 max-w-xl text-[14px] leading-relaxed text-muted">
-          This is a frontend demonstration form. No message has been sent and no data has been
-          stored or transmitted. Email delivery will be connected when the company provides a
-          backend or form service.
+          No message has been sent and no data has been stored or transmitted. Email delivery
+          will be connected when the company provides a backend or form service.
         </p>
         <div className="mt-5 rounded-2xl border border-line bg-white p-4">
           <p className="text-[12px] leading-relaxed text-muted">
@@ -142,7 +141,7 @@ export function ContactForm() {
           Send an enquiry
         </h2>
         <span className="rounded-full border border-accent/20 bg-accent-light px-2.5 py-1 text-[10.5px] font-semibold text-[#b5161c]">
-          Frontend demo — not sent
+          Not sent
         </span>
       </div>
       <p className="mt-2 text-[13px] leading-relaxed text-muted">
@@ -253,8 +252,8 @@ export function ContactForm() {
 
       <div className="mt-6 flex flex-col gap-4">
         <p className="text-[11.5px] leading-relaxed text-muted">
-          By submitting this demonstration form you acknowledge that no message will be sent and
-          no personal data will be stored. See the{" "}
+          By submitting this form you acknowledge that no message will be sent and no personal
+          data will be stored. See the{" "}
           <Link href="/contact" className="font-semibold text-brand hover:text-brand-dark">
             contact information
           </Link>{" "}

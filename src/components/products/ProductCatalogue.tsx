@@ -216,7 +216,7 @@ function CatalogueResults({
         </span>
         <h2 className="mt-5 text-xl font-bold text-navy">No products found</h2>
         <p className="mt-2 max-w-md text-sm leading-relaxed text-muted">
-          We could not find a demonstration product matching your search or category.
+          We could not find a product matching your search or category.
           Try a different term or reset the filters.
         </p>
         <Button onClick={onClear} className="mt-6" variant="primary">
@@ -234,7 +234,7 @@ function CatalogueResults({
       <ProductGrid products={shown} />
       <div className="mt-10 flex flex-col items-center gap-3">
         <p className="text-[12px] text-muted" aria-live="polite">
-          Showing {shown.length} of {filteredProducts.length} demonstration products
+          Showing {shown.length} of {filteredProducts.length} products
         </p>
         {remaining > 0 && (
           <Button

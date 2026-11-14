@@ -22,7 +22,7 @@ export default function NotFound() {
         </h1>
         <p className="mx-auto mt-4 max-w-lg text-[15px] leading-relaxed text-muted">
           The page may have moved, or the product link may be incomplete. Return to the
-          homepage or browse the demonstration catalogue.
+          homepage or browse the product catalogue.
         </p>
         <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
           <Button href="/" icon={ArrowRight}>

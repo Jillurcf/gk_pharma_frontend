@@ -2,82 +2,56 @@ import type { Category } from "@/types/product";
 
 export const categories: Category[] = [
   {
-    slug: "herbal-botanical",
-    name: "Herbal & Botanical Preparations",
-    shortName: "Herbal & Botanical",
+    slug: "liquid-products",
+    name: "Liquid Products",
+    shortName: "Liquid Products",
     description:
-      "Plant-based preparations presented in traditional formats such as syrups, extracts and powders.",
+      "Traditional Unani syrups and liquid preparations.",
     longDescription:
-      "A demonstration category for herbal and botanical formats. Official product classifications, ingredient lists and approved label copy will be published after verification.",
-    icon: "sprout",
+      "Syrups, liquid preparations and tonics within the GK Pharma product range, presented with clear product information.",
+    icon: "droplet",
     tone: "green",
-    image: "/images/categories/herbal-botanical.svg",
-    focusAreas: ["Herbal syrups", "Liquid extracts", "Botanical powders"],
+    image: "/images/categories/liquid-products.svg",
+    focusAreas: ["Syrups", "Liquid preparations", "Tonics"],
   },
   {
-    slug: "digestive-care",
-    name: "Digestive Care",
-    shortName: "Digestive Care",
+    slug: "capsule-products",
+    name: "Capsule Products",
+    shortName: "Capsule Products",
     description:
-      "Traditional Unani-inspired formats for everyday digestive routines, including syrups, drops and powders.",
+      "Encapsulated Unani preparations in the capsule range.",
     longDescription:
-      "A demonstration category covering digestive preparation formats. Nothing on this page should be read as a treatment claim or usage instruction.",
-    icon: "heart-pulse",
+      "Capsule formats within the GK Pharma product range, presented with clear product information.",
+    icon: "capsule",
     tone: "amber",
-    image: "/images/categories/digestive-care.svg",
-    focusAreas: ["Digestive syrups", "Drops", "Husk powders"],
+    image: "/images/categories/capsule-products.svg",
+    focusAreas: ["Capsules", "Herbal capsules", "Wellness capsules"],
   },
   {
-    slug: "respiratory-wellness",
-    name: "Respiratory Wellness",
-    shortName: "Respiratory",
+    slug: "tablet-products",
+    name: "Tablet Products",
+    shortName: "Tablet Products",
     description:
-      "A demonstration range of syrups, tonics and inhalant formats inspired by Unani traditions.",
+      "Compressed tablet formats in the product catalogue.",
     longDescription:
-      "This category illustrates how respiratory-related formats may be presented once official product records are available. No medical claims are made here.",
-    icon: "wind",
-    tone: "teal",
-    image: "/images/categories/respiratory-wellness.svg",
-    focusAreas: ["Syrups", "Tonics", "Inhalants"],
-  },
-  {
-    slug: "joint-musculoskeletal",
-    name: "Joint & Musculoskeletal Support",
-    shortName: "Joint & Musculoskeletal",
-    description:
-      "Oil, balm and liniment formats that demonstrate traditional external-use presentations.",
-    longDescription:
-      "A demonstration category for externally applied formats. Packaging and usage details remain pending official verification.",
-    icon: "bone",
+      "Tablet formats within the GK Pharma product range, presented with clear product information.",
+    icon: "tablet",
     tone: "navy",
-    image: "/images/categories/joint-musculoskeletal.svg",
-    focusAreas: ["Oils", "Balms", "Liniments"],
+    image: "/images/categories/tablet-products.svg",
+    focusAreas: ["Tablets", "Herbal tablets", "Digestive tablets"],
   },
   {
-    slug: "womens-wellness",
-    name: "Women's Wellness",
-    shortName: "Women's Wellness",
+    slug: "clinical-items",
+    name: "Clinical Items",
+    shortName: "Clinical Items",
     description:
-      "Tonic, syrup and capsule formats grouped as a demonstration women's wellness category.",
+      "Clinical-format items including capsules, powders, oils and lotions.",
     longDescription:
-      "This category is illustrative only. Official formulations, approved claims and pack details will be added after regulatory verification.",
-    icon: "flower",
-    tone: "plum",
-    image: "/images/categories/womens-wellness.svg",
-    focusAreas: ["Tonics", "Syrups", "Capsules"],
-  },
-  {
-    slug: "general-wellness",
-    name: "General Wellness & Tonics",
-    shortName: "General Wellness",
-    description:
-      "Everyday tonic, powder and electuary formats presented as part of the demonstration catalogue.",
-    longDescription:
-      "A demonstration category for general wellness formats. No product on this website is represented as an official GK Pharma product.",
-    icon: "sparkles",
-    tone: "red",
-    image: "/images/categories/general-wellness.svg",
-    focusAreas: ["Tonics", "Powders", "Electuaries"],
+      "Clinical-format products within the GK Pharma range, presented with clear product information.",
+    icon: "clinical",
+    tone: "teal",
+    image: "/images/categories/clinical-items.svg",
+    focusAreas: ["Capsules", "Powders", "Oils & lotions"],
   },
 ];
 

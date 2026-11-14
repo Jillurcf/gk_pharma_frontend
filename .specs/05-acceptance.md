@@ -8,12 +8,12 @@
 
 ## Catalogue
 - [x] Search, category filter, URL query sync, A–Z sort, load more and clear filters work.
-- [x] Empty state for no matches; demo badge visible.
+- [x] Empty state for no matches.
 - [x] Category deep links open the catalogue pre-filtered.
 
 ## Contact
 - [x] Required-field and email validation; accessible errors.
-- [x] Success message explicitly says demo only / no email sent.
+- [x] Success message explicitly says no email was sent.
 - [x] Product enquiry prefill works from `?product=`.
 
 ## Quality

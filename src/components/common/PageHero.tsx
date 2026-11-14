@@ -1,5 +1,6 @@
 import { Container } from "@/components/common/Container";
 import { Breadcrumb, type BreadcrumbItem } from "@/components/common/Breadcrumb";
+import { SITE } from "@/data/site";
 import { cn } from "@/lib/utils";
 
 interface PageHeroProps {
@@ -50,6 +51,13 @@ export function PageHero({
           </h1>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
             {description}
+          </p>
+          <p
+            lang="bn"
+            className="mt-6 flex items-center gap-3 font-bengali text-lg font-bold leading-snug text-brand sm:text-xl"
+          >
+            <span className="h-0.5 w-8 shrink-0 rounded-full bg-accent" aria-hidden="true" />
+            {SITE.tagline}
           </p>
           {children && <div className="mt-8">{children}</div>}
         </div>

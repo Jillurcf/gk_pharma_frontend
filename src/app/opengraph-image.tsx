@@ -127,7 +127,7 @@ export default function OpengraphImage() {
             Station Road, Tongi, Gazipur, Bangladesh
           </div>
           <div style={{ display: "flex", color: "#008348", fontWeight: 700 }}>
-            Demonstration product catalogue
+            Product catalogue
           </div>
         </div>
       </div>

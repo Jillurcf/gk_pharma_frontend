@@ -168,16 +168,16 @@ for (const auditViewport of [
 
   check((await page.locator("article").count()) === 9, "catalogue initial count is not 9");
 
-  await page.fill("#product-search", "hazm");
+  await page.fill("#product-search", "lokenji");
   await page.waitForFunction(() => document.querySelectorAll("article").length === 1);
-  check(page.url().includes("q=hazm"), "search did not sync to URL");
+  check(page.url().includes("q=lokenji"), "search did not sync to URL");
 
   await page.getByRole("button", { name: "Clear search" }).click();
   await page.waitForFunction(() => document.querySelectorAll("article").length === 9);
 
-  await page.getByRole("button", { name: /Digestive Care/ }).click();
-  await page.waitForFunction(() => document.querySelectorAll("article").length === 3);
-  check(page.url().includes("category=digestive-care"), "category filter not in URL");
+  await page.getByRole("button", { name: /Liquid Products/ }).click();
+  await page.waitForFunction(() => document.querySelectorAll("article").length === 9);
+  check(page.url().includes("category=liquid-products"), "category filter not in URL");
   check(
     (await page.getByText("No products found").count()) === 0,
     "unexpected empty state after category filter",
@@ -189,12 +189,12 @@ for (const auditViewport of [
   await page.selectOption("#product-sort", "name-desc");
   await page.waitForTimeout(400);
   const firstName = await page.locator("article h3").first().innerText();
-  check(firstName.startsWith("Triphala"), `name-desc first card was ${firstName}`);
+  check(firstName.startsWith("Vasicova"), `name-desc first card was ${firstName}`);
 
   await page.getByRole("button", { name: /Load More/ }).click();
   await page.waitForFunction(() => document.querySelectorAll("article").length === 18);
   check(
-    (await page.getByText("Showing 18 of 18 demonstration products").count()) === 1,
+    (await page.getByText(/Showing 18 of \d+ products/).count()) === 1,
     "load more count text missing",
   );
 
@@ -287,7 +287,7 @@ for (const auditViewport of [
 
   await page.fill("#contact-name", "Test Visitor");
   await page.fill("#contact-email", "visitor@example.com");
-  await page.fill("#contact-message", "I would like to discuss the demonstration catalogue.");
+  await page.fill("#contact-message", "I would like to discuss the product catalogue.");
   await page.getByRole("button", { name: /Submit Enquiry/ }).click();
   await page.getByRole("heading", { name: "Your details were validated" }).waitFor();
   check(
@@ -295,13 +295,13 @@ for (const auditViewport of [
     "success state does not state that no message was sent",
   );
 
-  await page.goto(`${BASE}/contact?product=Gulnar%20Herbal%20Syrup`, {
+  await page.goto(`${BASE}/contact?product=Lokenji%20Syrup`, {
     waitUntil: "networkidle",
   });
   await page.waitForSelector("#contact-product");
   const productValue = await page.inputValue("#contact-product");
   check(
-    productValue === "Gulnar Herbal Syrup",
+    productValue === "Lokenji Syrup",
     `contact product prefill was "${productValue}"`,
   );
   await context.close();
@@ -309,13 +309,9 @@ for (const auditViewport of [
 
 {
   const { context, page } = await newPage({ width: 1440, height: 1000 });
-  await page.goto(`${BASE}/products/gulnar-herbal-syrup`, { waitUntil: "networkidle" });
+  await page.goto(`${BASE}/products/lokenji-syrup`, { waitUntil: "networkidle" });
   const related = await page.locator("article").count();
   check(related === 3, `related product count was ${related}`);
-  check(
-    (await page.getByText("Not an official product").count()) >= 1,
-    "product detail demo badge missing",
-  );
   const metaDescription = await page
     .locator('meta[name="description"]')
     .getAttribute("content");

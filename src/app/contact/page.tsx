@@ -12,7 +12,7 @@ import { createPageMetadata } from "@/lib/seo";
 export const metadata: Metadata = createPageMetadata({
   title: "Contact Us",
   description:
-    "Contact GK Pharma (Unani) Limited at Station Road, Tongi, Gazipur, Bangladesh. Phone and email are placeholders pending official confirmation. Enquiry form is a frontend demo.",
+    "Contact GK Pharma (Unani) Limited at Station Road, Tongi, Gazipur, Bangladesh. Phone and email are placeholders pending official confirmation.",
   path: "/contact",
 });
 
@@ -35,7 +35,7 @@ export default function ContactPage() {
           <Badge tone="outline" className="bg-white">
             Product enquiries
           </Badge>
-          <Badge tone="demo">Phone & email placeholders</Badge>
+          <Badge tone="red">Phone & email placeholders</Badge>
         </div>
       </PageHero>
 
@@ -165,7 +165,7 @@ export default function ContactPage() {
 
             <div className="rounded-2xl border border-accent/20 bg-[#fdf5f4] p-4">
               <p className="text-[11.5px] leading-relaxed text-[#7a3a36]">
-                <span className="font-semibold text-[#b5161c]">Demo note: </span>
+                <span className="font-semibold text-[#b5161c]">Note: </span>
                 The enquiry form validates on your device only. It does not send an email, store
                 data or contact GK Pharma.
               </p>

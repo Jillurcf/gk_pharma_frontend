@@ -141,7 +141,7 @@ export default function QualityPage() {
           <Badge tone="outline" className="bg-white">
             Quality control
           </Badge>
-          <Badge tone="demo">Certifications pending verification</Badge>
+          <Badge tone="red">Certifications pending verification</Badge>
         </div>
       </PageHero>
 
@@ -377,7 +377,7 @@ export default function QualityPage() {
                 <h2 className="text-lg font-bold text-navy">
                   Certifications & regulatory approvals
                 </h2>
-                <Badge tone="demo">Not yet published</Badge>
+                <Badge tone="red">Not yet published</Badge>
               </div>
               <p className="mt-2 max-w-3xl text-[13.5px] leading-relaxed text-muted">
                 No certifications, licences or regulatory approval marks are displayed on this

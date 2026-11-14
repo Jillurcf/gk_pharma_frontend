@@ -1,6 +1,6 @@
 # GK Pharma (Unani) Limited — Corporate Website
 
-A premium, frontend-only corporate website and demonstration product catalogue for
+A premium, frontend-only corporate website and product catalogue for
 **GK Pharma (Unani) Limited**, based at Station Road, Tongi, Gazipur, Bangladesh.
 
 Built with Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS v4 and lucide-react.
@@ -28,18 +28,18 @@ URLs.
 
 - `/` — corporate homepage with featured products and categories
 - `/about` — company profile, mission, values and location
-- `/products` — searchable, filterable demonstration catalogue
+- `/products` — searchable, filterable product catalogue
 - `/products/[slug]` — product detail with related products
 - `/categories` — category browsing with live counts
 - `/quality` — manufacturing philosophy and quality framework
-- `/contact` — contact details and validated demo enquiry form
+- `/contact` — contact details and validated enquiry form
 
 ## Important
 
-The product catalogue is **demonstration content** and is labelled as such throughout the
-site. It does not represent official GK Pharma products, ingredients, dosages, claims or
-certifications. The contact form validates locally only and does not send email. Phone, email,
-map and social links are placeholders pending official confirmation.
+The product catalogue presents GK Pharma product information. Do not add ingredients,
+dosages, claims or certifications without verification. The contact form validates locally
+only and does not send email. Phone, email, map and social links are placeholders pending
+official confirmation.
 
 See [`docs.md`](./docs.md) for the full documentation, asset replacement guide, product data
 instructions and backend integration notes.

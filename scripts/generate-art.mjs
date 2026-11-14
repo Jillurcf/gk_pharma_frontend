@@ -1,44 +1,32 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const products = [
-  ["gulnar-herbal-syrup", "Gulnar Herbal Syrup", "Herbal & Botanical", "Syrup", "herbal-botanical", "bottle"],
-  ["neem-tulsi-herbal-extract", "Neem & Tulsi Herbal Extract", "Herbal & Botanical", "Liquid Extract", "herbal-botanical", "dropper"],
-  ["sabza-botanical-powder", "Sabza Botanical Powder", "Herbal & Botanical", "Powder", "herbal-botanical", "pouch"],
-  ["hazm-care-digestive-syrup", "Hazm Care Digestive Syrup", "Digestive Care", "Syrup", "digestive-care", "bottle"],
-  ["sounf-digestive-drops", "Sounf Digestive Drops", "Digestive Care", "Drops", "digestive-care", "dropper"],
-  ["ispaghula-husk-blend", "Ispaghula Husk Blend", "Digestive Care", "Powder", "digestive-care", "pouch"],
-  ["shifa-respiratory-syrup", "Shifa Respiratory Syrup", "Respiratory Wellness", "Syrup", "respiratory-wellness", "bottle"],
-  ["mint-eucalyptus-inhalant", "Mint & Eucalyptus Inhalant", "Respiratory Wellness", "Inhalant", "respiratory-wellness", "jar"],
-  ["adrak-respiratory-tonic", "Adrak Respiratory Tonic", "Respiratory Wellness", "Tonic", "respiratory-wellness", "bottle"],
-  ["moringa-joint-oil", "Moringa Joint Oil", "Joint & Musculoskeletal", "Oil", "joint-musculoskeletal", "dropper"],
-  ["harjor-musculoskeletal-liniment", "Harjor Musculoskeletal Liniment", "Joint & Musculoskeletal", "Liniment", "joint-musculoskeletal", "bottle"],
-  ["kalonji-joint-balm", "Kalonji Joint Balm", "Joint & Musculoskeletal", "Balm", "joint-musculoskeletal", "jar"],
-  ["shatavari-womens-tonic", "Shatavari Women's Tonic", "Women's Wellness", "Tonic", "womens-wellness", "bottle"],
-  ["ashoka-herbal-syrup", "Ashoka Herbal Syrup", "Women's Wellness", "Syrup", "womens-wellness", "bottle"],
-  ["fenugreek-wellness-capsules", "Fenugreek Wellness Capsules", "Women's Wellness", "Capsules", "womens-wellness", "box"],
-  ["triphala-wellness-powder", "Triphala Wellness Powder", "General Wellness", "Powder", "general-wellness", "pouch"],
-  ["amla-vitamin-tonic", "Amla Vitamin Tonic", "General Wellness", "Tonic", "general-wellness", "bottle"],
-  ["honey-herbal-electuary", "Honey Herbal Electuary", "General Wellness", "Electuary", "general-wellness", "jar"],
-];
+const seedPath = path.join("src", "data", "product-seeds.json");
+const seedMap = JSON.parse(fs.readFileSync(seedPath, "utf8"));
 
 const palette = {
-  "herbal-botanical": { accent: "#008348", dark: "#005c33", bg: "#e8f5ed" },
-  "digestive-care": { accent: "#b7791f", dark: "#875717", bg: "#fbf3e2" },
-  "respiratory-wellness": { accent: "#0f766e", dark: "#0b5650", bg: "#e6f5f2" },
-  "joint-musculoskeletal": { accent: "#171b68", dark: "#10133f", bg: "#ebedf9" },
-  "womens-wellness": { accent: "#8b3a7d", dark: "#652a5a", bg: "#f7ecf4" },
-  "general-wellness": { accent: "#c21d24", dark: "#8f151a", bg: "#fbeceb" },
+  "liquid-products": { accent: "#008348", dark: "#005c33", bg: "#e8f5ed" },
+  "capsule-products": { accent: "#b7791f", dark: "#875717", bg: "#fbf3e2" },
+  "tablet-products": { accent: "#171b68", dark: "#10133f", bg: "#ebedf9" },
+  "clinical-items": { accent: "#0f766e", dark: "#0b5650", bg: "#e6f5f2" },
 };
 
 const categories = [
-  ["herbal-botanical", "Herbal & Botanical", "Sprout"],
-  ["digestive-care", "Digestive Care", "Digest"],
-  ["respiratory-wellness", "Respiratory Wellness", "Breathe"],
-  ["joint-musculoskeletal", "Joint & Musculoskeletal", "Mobility"],
-  ["womens-wellness", "Women's Wellness", "Balance"],
-  ["general-wellness", "General Wellness", "Vitality"],
+  ["liquid-products", "Liquid Products"],
+  ["capsule-products", "Capsule Products"],
+  ["tablet-products", "Tablet Products"],
+  ["clinical-items", "Clinical Items"],
 ];
+
+const categoryLabels = Object.fromEntries(categories);
+
+function packFor(categorySlug, form) {
+  if (categorySlug === "liquid-products") return "bottle";
+  const normalized = form.toLowerCase();
+  if (normalized.includes("powder")) return "pouch";
+  if (normalized.includes("oil") || normalized.includes("lotion")) return "dropper";
+  return "box";
+}
 
 function escapeXml(value) {
   return value
@@ -93,9 +81,7 @@ function labelBlock({ name, category, form, accent, dark, x, y, width, height, s
     <line x1="${x + width / 2 - 26}" y1="${y + 44}" x2="${x + width / 2 + 26}" y2="${y + 44}" stroke="${accent}" stroke-width="1.6" opacity="0.55"/>
     ${nameLines}
     <text x="${x + width / 2}" y="${y + height - 54}" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="1.6" fill="${accent}">${escapeXml(form.toUpperCase())}</text>
-    <text x="${x + width / 2}" y="${y + height - 33}" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="8.5" letter-spacing="1.2" fill="#7b8781">${escapeXml(category.toUpperCase())}</text>
-    <rect x="${x + width / 2 - 42}" y="${y + height - 22}" width="84" height="14" rx="7" fill="#E31E24" opacity="0.92"/>
-    <text x="${x + width / 2}" y="${y + height - 12}" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="7.5" font-weight="700" letter-spacing="1.4" fill="#ffffff">DEMO VISUAL</text>`;
+    <text x="${x + width / 2}" y="${y + height - 33}" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="8.5" letter-spacing="1.2" fill="#7b8781">${escapeXml(category.toUpperCase())}</text>`;
 }
 
 function bottle(p, accent, dark) {
@@ -157,20 +143,24 @@ function box(p, accent, dark) {
 
 let generated = 0;
 
-for (const [slug, name, category, form, tone, pack] of products) {
-  const { accent, dark, bg } = palette[tone];
-  const body =
-    pack === "bottle"
-      ? bottle({ name, category, form }, accent, dark)
-      : pack === "dropper"
-        ? dropper({ name, category, form }, accent, dark)
-        : pack === "jar"
-          ? jar({ name, category, form }, accent, dark)
-          : pack === "pouch"
-            ? pouch({ name, category, form }, accent, dark)
-            : box({ name, category, form }, accent, dark);
+for (const [categorySlug, seeds] of Object.entries(seedMap)) {
+  const { accent, dark, bg } = palette[categorySlug];
+  const category = categoryLabels[categorySlug];
 
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" role="img" aria-label="${escapeXml(name)} demonstration product visual">
+  for (const seed of seeds) {
+    const pack = packFor(categorySlug, seed.form);
+    const body =
+      pack === "bottle"
+        ? bottle({ name: seed.name, category, form: seed.form }, accent, dark)
+        : pack === "dropper"
+          ? dropper({ name: seed.name, category, form: seed.form }, accent, dark)
+          : pack === "jar"
+            ? jar({ name: seed.name, category, form: seed.form }, accent, dark)
+            : pack === "pouch"
+              ? pouch({ name: seed.name, category, form: seed.form }, accent, dark)
+              : box({ name: seed.name, category, form: seed.form }, accent, dark);
+
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" role="img" aria-label="${escapeXml(seed.name)} product visual">
   <defs>
     <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="${accent}"/>
@@ -195,11 +185,11 @@ for (const [slug, name, category, form, tone, pack] of products) {
   </g>
   ${body}
   <text x="60" y="950" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3" fill="${dark}" opacity="0.5">GK PHARMA (UNANI) LIMITED</text>
-  <text x="940" y="950" text-anchor="end" font-family="'Segoe UI', Arial, sans-serif" font-size="13" letter-spacing="2" fill="${dark}" opacity="0.4">DEMO CATALOGUE</text>
 </svg>`;
 
-  fs.writeFileSync(path.join("public", "images", "products", `${slug}.svg`), svg);
-  generated += 1;
+    fs.writeFileSync(path.join("public", "images", "products", `${seed.slug}.svg`), svg);
+    generated += 1;
+  }
 }
 
 for (const [slug, label] of categories) {
@@ -224,7 +214,7 @@ for (const [slug, label] of categories) {
     <circle cx="110" cy="120" r="4"/><circle cx="138" cy="120" r="4"/><circle cx="166" cy="120" r="4"/>
   </g>
   <text x="70" y="470" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3.5" fill="${dark}" opacity="0.55">GK PHARMA</text>
-  <text x="70" y="508" font-family="'Segoe UI', Arial, sans-serif" font-size="13" letter-spacing="2" fill="${dark}" opacity="0.4">UNANI RANGE · DEMO</text>
+  <text x="70" y="508" font-family="'Segoe UI', Arial, sans-serif" font-size="13" letter-spacing="2" fill="${dark}" opacity="0.4">UNANI RANGE</text>
 </svg>`;
   fs.writeFileSync(path.join("public", "images", "categories", `${slug}.svg`), svg);
   generated += 1;

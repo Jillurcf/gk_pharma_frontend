@@ -3,7 +3,6 @@ import { ArrowRight } from "lucide-react";
 import { Container } from "@/components/common/Container";
 import { SectionHeading } from "@/components/common/SectionHeading";
 import { Button } from "@/components/common/Button";
-import { DemoNotice } from "@/components/common/DemoNotice";
 import { ProductGrid } from "@/components/products/ProductGrid";
 import { featuredProducts } from "@/data/products";
 
@@ -13,15 +12,14 @@ export function FeaturedProducts() {
       <Container>
         <SectionHeading
           eyebrow="Featured products"
-          title="A preview of the demonstration catalogue"
-          description="Explore eight sample entries that show how GK Pharma product information will be presented. Every item is clearly labelled as demonstration data."
+          title="Featured products from the catalogue"
+          description="Explore a selection of products from the GK Pharma range."
           action={
             <Button href="/products" variant="outline" icon={ArrowRight} className="group">
               View Full Catalogue
             </Button>
           }
         />
-        <DemoNotice compact className="mt-8" />
         <ProductGrid products={featuredProducts} className="mt-8" />
         <div className="mt-8 flex justify-center">
           <Link

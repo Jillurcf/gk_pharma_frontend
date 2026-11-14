@@ -17,7 +17,6 @@ import { getCategoryName } from "@/data/categories";
 import { SITE } from "@/data/site";
 import { Badge } from "@/components/common/Badge";
 import { Button } from "@/components/common/Button";
-import { DemoNotice } from "@/components/common/DemoNotice";
 import { Breadcrumb } from "@/components/common/Breadcrumb";
 import { Container } from "@/components/common/Container";
 
@@ -39,8 +38,15 @@ export function ProductDetails({ product }: ProductDetailsProps) {
               { label: "Our Products", href: "/products" },
               { label: product.name },
             ]}
-            className="mb-7"
+            className="mb-5"
           />
+          <p
+            lang="bn"
+            className="mb-7 flex items-center gap-3 font-bengali text-base font-bold leading-snug text-brand sm:text-lg"
+          >
+            <span className="h-0.5 w-7 shrink-0 rounded-full bg-accent" aria-hidden="true" />
+            {SITE.tagline}
+          </p>
 
           <div className="grid gap-8 lg:grid-cols-[0.92fr_1.08fr] lg:gap-12">
             <div className="lg:sticky lg:top-28 lg:self-start">
@@ -48,7 +54,7 @@ export function ProductDetails({ product }: ProductDetailsProps) {
                 <div className="relative aspect-square">
                   <Image
                     src={product.image}
-                    alt={`${product.name} demonstration pack visual`}
+                    alt={`${product.name} product visual`}
                     fill
                     priority
                     sizes="(min-width: 1024px) 560px, 92vw"
@@ -59,9 +65,6 @@ export function ProductDetails({ product }: ProductDetailsProps) {
                   <Badge tone="outline" className="bg-white/95 backdrop-blur">
                     {categoryName}
                   </Badge>
-                </div>
-                <div className="absolute right-4 top-4">
-                  <Badge tone="demo">Demo visual</Badge>
                 </div>
               </div>
               <div className="mt-3 flex items-center justify-between px-1 text-[11px] text-muted">
@@ -95,7 +98,6 @@ export function ProductDetails({ product }: ProductDetailsProps) {
               <div className="flex flex-wrap items-center gap-2">
                 <Badge tone="brand">{categoryName}</Badge>
                 <Badge tone="neutral">{product.productForm}</Badge>
-                <Badge tone="demo">Not an official product</Badge>
               </div>
 
               <h1 className="mt-4 text-3xl font-bold leading-[1.12] text-navy sm:text-4xl lg:text-[2.8rem]">
@@ -104,8 +106,6 @@ export function ProductDetails({ product }: ProductDetailsProps) {
               <p className="mt-4 max-w-2xl text-[15.5px] leading-relaxed text-muted">
                 {product.shortDescription}
               </p>
-
-              <DemoNotice compact className="mt-5" />
 
               <dl className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
                 <div className="rounded-xl border border-line bg-white p-3.5">
@@ -128,8 +128,8 @@ export function ProductDetails({ product }: ProductDetailsProps) {
                   <dt className="text-[10px] font-semibold uppercase tracking-[0.14em] text-muted">
                     Catalogue status
                   </dt>
-                  <dd className="mt-1.5 text-[12.5px] font-semibold leading-snug text-accent">
-                    Demo entry
+                  <dd className="mt-1.5 text-[12.5px] font-semibold leading-snug text-brand">
+                    Listed
                   </dd>
                 </div>
               </dl>
@@ -248,9 +248,8 @@ export function ProductDetails({ product }: ProductDetailsProps) {
                 <div className="rounded-2xl bg-navy p-6 text-white sm:p-7">
                   <h2 className="text-xl font-bold text-white">Have a product enquiry?</h2>
                   <p className="mt-2 max-w-lg text-[13.5px] leading-relaxed text-white/65">
-                    Contact the company about this catalogue entry, future official product
-                    information or distribution enquiries. The contact form is a frontend demo
-                    and does not send messages yet.
+                    Contact the company about this product or distribution enquiries. The
+                    contact form validates on your device and does not send messages yet.
                   </p>
                   <div className="mt-5 flex flex-col gap-2.5 sm:flex-row">
                     <Button href={enquiryHref} variant="white" icon={Mail} iconPosition="left">

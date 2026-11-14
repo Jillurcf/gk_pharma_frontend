@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   }
 
   const categoryName = getCategoryName(product.category);
-  const description = `${product.shortDescription} Demonstration catalogue entry only — not an official GK Pharma product.`;
+  const description = product.shortDescription;
   const metadata = createPageMetadata({
     title: product.name,
     description,
@@ -44,18 +44,17 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
     ...metadata,
     openGraph: {
       ...metadata.openGraph,
-      title: `${product.name} | Demo Catalogue`,
+      title: `${product.name} | ${categoryName}`,
       description,
       images: [
         {
           url: product.image,
-          alt: `${product.name} demonstration pack visual`,
+          alt: `${product.name} product visual`,
         },
       ],
     },
     other: {
       "product:category": categoryName,
-      "product:status": "demonstration",
     },
   };
 }

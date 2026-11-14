@@ -43,7 +43,7 @@ export function AboutSection() {
           <SectionHeading
             eyebrow="About the company"
             title="A Unani medicine manufacturer rooted in Gazipur, Bangladesh"
-            description="GK Pharma (Unani) Limited operates from Station Road, Tongi, Gazipur. This website introduces the company, its manufacturing philosophy and a demonstration product catalogue designed to make product information easy to navigate."
+            description="GK Pharma (Unani) Limited operates from Station Road, Tongi, Gazipur. This website introduces the company, its manufacturing philosophy and a product catalogue designed to make product information easy to navigate."
           />
 
           <p className="mt-5 text-[15px] leading-relaxed text-muted">

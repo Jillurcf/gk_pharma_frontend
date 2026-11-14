@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { Container } from "@/components/common/Container";
 import { PageHero } from "@/components/common/PageHero";
-import { DemoNotice } from "@/components/common/DemoNotice";
 import { Badge } from "@/components/common/Badge";
 import { ProductCatalogue } from "@/components/products/ProductCatalogue";
 import { categories } from "@/data/categories";
@@ -12,7 +11,7 @@ import { createPageMetadata } from "@/lib/seo";
 export const metadata: Metadata = createPageMetadata({
   title: "Product Catalogue",
   description:
-    "Browse the GK Pharma (Unani) Limited demonstration product catalogue. Search, filter by category and sort sample Unani preparation entries.",
+    "Browse the GK Pharma (Unani) Limited product catalogue. Search, filter by category and sort Unani preparation entries.",
   path: "/products",
 });
 
@@ -22,7 +21,7 @@ export default function ProductsPage() {
       <PageHero
         eyebrow="Product catalogue"
         title="A clear view of the GK Pharma range"
-        description="Search and filter a demonstration catalogue structured for the complete GK Pharma product range. Official product information can replace each sample entry without changing the experience."
+        description="Search and filter the complete GK Pharma product range by category, product form and name."
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "Our Products" },
@@ -30,18 +29,16 @@ export default function ProductsPage() {
       >
         <div className="flex flex-wrap gap-2">
           <Badge tone="outline" className="bg-white">
-            {products.length} demo entries
+            {products.length} products
           </Badge>
           <Badge tone="outline" className="bg-white">
             {categories.length} categories
           </Badge>
-          <Badge tone="demo">Not official product data</Badge>
         </div>
       </PageHero>
 
       <section className="bg-white py-10 sm:py-14">
         <Container>
-          <DemoNotice className="mb-8" />
           <h2 className="sr-only">Browse and filter products</h2>
           <Suspense fallback={<CatalogueSkeleton />}>
             <ProductCatalogue />
