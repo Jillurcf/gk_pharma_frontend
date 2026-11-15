@@ -14,6 +14,7 @@
       "form": "Syrup",
       "indications": "পিত্ত প্রকোপ, মূত্রকৃচ্ছতা, প্রদাহ জনিত পিপাসাধিক্য, মূত্রনালীতে প্রতিবন্ধকতা সৃষ্টি এবং শরীরের জ্বালা-পোড়া কমাতে সাহায্য করে।",
       "usage": "৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/ALKOCIN.png",
       "featured": true
     },
     {
@@ -28,70 +29,80 @@
       "name": "Azvent Syrup (Sharbat Arzani)",
       "form": "Syrup",
       "indications": "কফ তরল কারক, সর্দি নিঃস্বরক এবং অ্যাজমা ও শ্বাসকষ্টে বিশেষভাবে কার্যকর।",
-      "usage": "২-৪ চা-চামচ (১০-২০ মিলি) সিরাপ দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "২-৪ চা-চামচ (১০-২০ মিলি) সিরাপ দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Azvent.png"
     },
     {
       "slug": "branovit-syrup",
       "name": "Branovit Syrup",
       "form": "Syrup",
       "indications": "মস্তিষ্ক ও হৃদযন্ত্রের দুর্বলতা, স্মরণ শক্তিহীনতা এবং অতিরিক্ত মানসিক অসুস্থতা ও অবসাদে কার্যকরী।",
-      "usage": "২-৪ চা-চামচ (১০-২০ মিলি) সিরাপ দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "২-৪ চা-চামচ (১০-২০ মিলি) সিরাপ দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/BRANOVIT.png"
     },
     {
       "slug": "dyzamin-syrup",
       "name": "DyZamin Syrup",
       "form": "Syrup",
       "indications": "পেট ফাঁপা, অজীর্ণ, পেটব্যথা ও যকৃতের দুর্বলতায় কার্যকর।",
-      "usage": "প্রাপ্ত বয়স্ক: ৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "প্রাপ্ত বয়স্ক: ৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Dyzamin.png"
     },
     {
       "slug": "gk-liv-syrup",
       "name": "GK Liv Syrup",
       "form": "Syrup",
       "indications": "যকৃতের দুর্বলতা, যকৃত প্রদাহ, প্রতিবন্ধকতা জনিত জন্ডিস, যকৃতের গোলযোগ জনিত রোগ ও শোথ ইত্যাদি রোগে কার্যকর।",
-      "usage": "২-৪ চা-চামচ (১০-২০ মিলি) সিরাপ দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "২-৪ চা-চামচ (১০-২০ মিলি) সিরাপ দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/GKLiv.png"
     },
     {
       "slug": "herbojin-syrup",
       "name": "Herbojin Syrup (Sharbat Mithali)",
       "form": "Syrup",
       "indications": "সাধারণ দুর্বলতা, স্নায়ুবিক দুর্বলতা, পাকস্থলী ও যকৃতের দুর্বলতা, অবসাদ, ক্ষুধামন্দা এবং সকল প্রকার ভিটামিনের অভাব জনিত উপসর্গে কার্যকর।",
-      "usage": "প্রাপ্ত বয়স্ক: ৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ২-৩ বার; অপ্রাপ্ত বয়স্ক: ১-২ চা-চামচ (৫-১০ মিলি) সিরাপ দিনে ২-৩ বার।"
+      "usage": "প্রাপ্ত বয়স্ক: ৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ২-৩ বার; অপ্রাপ্ত বয়স্ক: ১-২ চা-চামচ (৫-১০ মিলি) সিরাপ দিনে ২-৩ বার।",
+      "image": "/images/products/Original/Herbojin.png"
     },
     {
       "slug": "holy-hazmin-syrup",
       "name": "Holy Hazmin Syrup (Sharbat Hazmina)",
       "form": "Syrup",
       "indications": "বদহজম, অজীর্ণ, ক্ষুধামন্দা, পেট, পাকস্থলী ও যকৃতের দুর্বলতায় কার্যকর।",
-      "usage": "২-৪ চা-চামচ (১০-২০ মিলি) সিরাপ দিনে ৩ বার পানিতে মিশিয়ে সেব্য অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী।"
+      "usage": "২-৪ চা-চামচ (১০-২০ মিলি) সিরাপ দিনে ৩ বার পানিতে মিশিয়ে সেব্য অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী।",
+      "image": "/images/products/Original/Hazmin.png"
     },
     {
       "slug": "holy-aple-syrup",
       "name": "Holy Aple Syrup",
       "form": "Syrup",
       "indications": "রুচিবর্ধক, ক্ষুধাবর্ধক, প্রধান অঙ্গসমূহের শক্তিবর্ধক, রক্ত উৎপাদক, সাধারণ দুর্বলতা এবং ভিটামিন এ ও সি সহ সকল প্রকার ভিটামিনের অভাব জনিত উপসর্গে কার্যকর।",
-      "usage": "প্রাপ্ত বয়স্ক: ৩ চা-চামচ (১৫ মিলি) সিরাপ দিনে ২-৩ বার; অপ্রাপ্ত বয়স্ক: ১-২ চা-চামচ (৫-১০ মিলি) সিরাপ দিনে ২-৩ বার।"
+      "usage": "প্রাপ্ত বয়স্ক: ৩ চা-চামচ (১৫ মিলি) সিরাপ দিনে ২-৩ বার; অপ্রাপ্ত বয়স্ক: ১-২ চা-চামচ (৫-১০ মিলি) সিরাপ দিনে ২-৩ বার।",
+      "image": "/images/products/Original/Aple.png"
     },
     {
       "slug": "holy-liv-syrup",
       "name": "Holy Liv Syrup (Sharbat Dinar)",
       "form": "Syrup",
       "indications": "লিভারের প্রদাহ, প্রতিবন্ধকতা জনিত জন্ডিস, লিভারের দুর্বলতা এবং কোষ্ঠকাঠিন্য দূরীকরণে কার্যকর।",
-      "usage": "প্রাপ্ত বয়স্ক: ২-৩ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ৩ বার; অপ্রাপ্ত বয়স্ক: ১-২ চা-চামচ (৫-১০ মিলি) সিরাপ দিনে ৩ বার (৮ সপ্তাহ) অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী।"
+      "usage": "প্রাপ্ত বয়স্ক: ২-৩ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ৩ বার; অপ্রাপ্ত বয়স্ক: ১-২ চা-চামচ (৫-১০ মিলি) সিরাপ দিনে ৩ বার (৮ সপ্তাহ) অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী।",
+      "image": "/images/products/Original/HolyLIV.png"
     },
     {
       "slug": "holy-ushba-syrup",
       "name": "Holy Ushba Syrup (Sharbat Ushba)",
       "form": "Syrup",
       "indications": "এলার্জি নাশক, রক্ত शोधক, প্রদাহ নাশক, খোস-পাচড়া, দাদ, ফোড়া, রক্তদুষ্টি এবং সন্ধি-প্রদাহ নাশক।",
-      "usage": "২-৩ চা-চামচ (১০-১৫ মিলি) সিরাপ দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "২-৩ চা-চামচ (১০-১৫ মিলি) সিরাপ দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Ushba.png"
     },
     {
       "slug": "holy-pyronill-syrup",
       "name": "Holy Pyronill Syrup (Arq Bokhar)",
       "form": "Syrup",
       "indications": "জ্বর, যকৃত প্রদাহ, মাথাব্যথা ও শরীর ব্যথায় কার্যকর। ইহা শিশুদের জন্য বিশেষভাবে তৈরী ও নিরাপদ।",
-      "usage": "প্রাপ্ত বয়স্ক: ২-৩ চা-চামচ (১০-১৫ মিলি) সিরাপ দিনে ২-৩ বার; অপ্রাপ্ত বয়স্ক: ১-২ চা-চামচ (৫-১০ মিলি) সিরাপ দিনে ২-৩ বার।"
+      "usage": "প্রাপ্ত বয়স্ক: ২-৩ চা-চামচ (১০-১৫ মিলি) সিরাপ দিনে ২-৩ বার; অপ্রাপ্ত বয়স্ক: ১-২ চা-চামচ (৫-১০ মিলি) সিরাপ দিনে ২-৩ বার।",
+      "image": "/images/products/Original/HolyPyronil.png"
     },
     {
       "slug": "holy-tushi-syrup",
@@ -105,56 +116,64 @@
       "name": "Holyplex Syrup (Sharbat Ambrut)",
       "form": "Syrup",
       "indications": "সাধারণ দুর্বলতা, স্নায়ুবিক দুর্বলতা, রক্তস্বল্পতা, অবসাদ এবং ভিটামিনের অভাব জনিত উপসর্গে কার্যকর।",
-      "usage": "প্রাপ্ত বয়স্ক: ৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ২-৩ বার; অপ্রাপ্ত বয়স্ক: ১-২ চা-চামচ (৫-১০ মিলি) সিরাপ দিনে ২-৩ বার।"
+      "usage": "প্রাপ্ত বয়স্ক: ৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ২-৩ বার; অপ্রাপ্ত বয়স্ক: ১-২ চা-চামচ (৫-১০ মিলি) সিরাপ দিনে ২-৩ বার।",
+      "image": "/images/products/Original/HolYplex.png"
     },
     {
       "slug": "joysun-syrup",
       "name": "Joysun Syrup",
       "form": "Syrup",
       "indications": "বিশেষত মহিলাদের কামশীতলতা ও স্নায়ুবিক দুর্বলতায় কার্যকর এবং শরীরে রক্ত চলাচল বৃদ্ধি করতে সাহায্য করে।",
-      "usage": "৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/JOYSUN.png"
     },
     {
       "slug": "lld-syrup",
       "name": "LLD Syrup (Sharbat Tamarind)",
       "form": "Syrup",
       "indications": "অতিরিক্ত কোলেষ্ট্রেরল, পিত্ত প্রকোপ, বমি ও বমিভাব, উচ্চ রক্তচাপ এবং রক্তের ঘনত্ব কমায়।",
-      "usage": "৪-৫ চা-চামচ (২০-২৫ মিলি) সিরাপ দিনে ৩-৪ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "৪-৫ চা-চামচ (২০-২৫ মিলি) সিরাপ দিনে ৩-৪ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/LLD.png"
     },
     {
       "slug": "menscor-syrup",
       "name": "Menscor Syrup (Sharbat Sarlan)",
       "form": "Syrup",
       "indications": "শ্বেতপ্রদর, ব্যথাযুক্ত মাসিক, অতিরিক্ত মাসিক, অনিয়মিত মাসিক, জরায়ুর সমস্যা এবং রক্তস্বল্পতা ইত্যাদি রোগে কার্যকর।",
-      "usage": "৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ২-৩ বার পানির সাথে মিশিয়ে মাসিকের সম্ভাব্য তারিখের ১০ দিন পূর্ব থেকে আহারের পর অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ২-৩ বার পানির সাথে মিশিয়ে মাসিকের সম্ভাব্য তারিখের ১০ দিন পূর্ব থেকে আহারের পর অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/MenScor.png"
     },
     {
       "slug": "revejin-syrup",
       "name": "Revejin Syrup",
       "form": "Syrup",
       "indications": "সাধারণ দুর্বলতা, স্নায়ুবিক দুর্বলতা, দৈহিক অবসাদ এবং যৌন সমস্যায় কার্যকর।",
-      "usage": "৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ২ বার হালকা গরম পানি সহ অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ২ বার হালকা গরম পানি সহ অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Revejin.png"
     },
     {
       "slug": "revoplex-syrup",
       "name": "Revoplex Syrup",
       "form": "Syrup",
       "indications": "সাধারণ দুর্বলতা ও অবসাদে কার্যকর। ইহা প্রধান অঙ্গসমূহের শক্তিবর্ধক ও প্রফুল্লকারক। ক্যালসিয়াম ও ভিটামিনের অভাব পূরণ করে মাতৃদুগ্ধ বৃদ্ধি করে।",
-      "usage": "৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ৩-৪ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ৩-৪ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Revoplex.png"
     },
     {
       "slug": "surakta-syrup",
       "name": "Surakta Syrup (Sharbat Musaffi)",
       "form": "Syrup",
       "indications": "রক্তের বিশুদ্ধতা, খোস-পাচড়া, ব্রণ, ফোড়া, ফুসকুড়ী, চুলকানি, মেছতা, বিবর্ণতা, আর্টিকারিয়া ও ত্বক প্রদাহে কার্যকর।",
-      "usage": "৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ৩ বার আহারের পর পানি বা ফলের রস মিশিয়ে ৪-৫ সপ্তাহ অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ৩ বার আহারের পর পানি বা ফলের রস মিশিয়ে ৪-৫ সপ্তাহ অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Surakta.png"
     },
     {
       "slug": "toxnil-syrup",
       "name": "Toxnil Syrup (Sharbat Talkh)",
       "form": "Syrup",
       "indications": "রক্ত পরিষ্কারক, বিভিন্ন প্রকার চর্মরোগ, এলার্জি, খোস-পাঁচড়া ও চুলকানি ইত্যাদি রোগে কার্যকর। নিয়মিত সেবনে প্রাকৃতিকভাবে ত্বকের উজ্জ্বলতা বৃদ্ধি করে।",
-      "usage": "২-৪ চা-চামচ (১০-২০ মিলি) সিরাপ দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "২-৪ চা-চামচ (১০-২০ মিলি) সিরাপ দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/ToxNil.png"
     },
     {
       "slug": "unicard-syrup",
@@ -168,14 +187,40 @@
       "name": "Vasicova Syrup (Sharbat Ejaz)",
       "form": "Syrup",
       "indications": "বুকের জমা কফ তরল করে ও শুকনো কাশি উপশম করে।",
-      "usage": "প্রাপ্ত বয়স্ক: ৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ২-৩ বার; অপ্রাপ্ত বয়স্ক: ১-২ চা-চামচ (৫-১০ মিলি) সিরাপ দিনে ২-৩ বার।"
+      "usage": "প্রাপ্ত বয়স্ক: ৩-৪ চা-চামচ (১৫-২০ মিলি) সিরাপ দিনে ২-৩ বার; অপ্রাপ্ত বয়স্ক: ১-২ চা-চামচ (৫-১০ মিলি) সিরাপ দিনে ২-৩ বার।",
+      "image": "/images/products/Original/VASICOVA.png"
     },
     {
       "slug": "sennalex-syrup",
       "name": "Sennalex Syrup",
       "form": "Syrup",
       "indications": "কোষ্ঠকাঠিন্যে বিশেষভাবে কার্যকর। পেট ফাঁপা, বমি বমি ভাব এবং পাকস্থলীর শীতলতায় বিশেষ ভূমিকা রাখে।",
-      "usage": "৪-৫ চা-চামচ হালকা গরম পানিতে রাত্রে শয়নকালে অথবা চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "৪-৫ চা-চামচ হালকা গরম পানিতে রাত্রে শয়নকালে অথবা চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Sennalex.png"
+    },
+    {
+      "slug": "tonicard-syrup",
+      "name": "Tonicard Syrup (Sharbat Sandal)",
+      "form": "Syrup",
+      "indications": "Official product information is pending verification.",
+      "usage": "Official usage information is pending verification.",
+      "image": "/images/products/Original/Tonicard.png"
+    },
+    {
+      "slug": "neo-zinc-syrup",
+      "name": "Neo Zinc Syrup (Sharbat Mawez)",
+      "form": "Syrup",
+      "indications": "Official product information is pending verification.",
+      "usage": "Official usage information is pending verification.",
+      "image": "/images/products/Original/NeoZinc.png"
+    },
+    {
+      "slug": "aptorex-syrup",
+      "name": "Aptorex Syrup",
+      "form": "Syrup",
+      "indications": "Official product information is pending verification.",
+      "usage": "Official usage information is pending verification.",
+      "image": "/images/products/Original/APTOREX.png"
     }
   ],
   "capsule-products": [
@@ -185,6 +230,7 @@
       "form": "Capsule",
       "indications": "গ্রন্থি বেদনা, প্রদাহ ও বাত নিবারণে কার্যকর।",
       "usage": "১টি করে ক্যাপসুল দিনে ২-৩ বার।",
+      "image": "/images/products/Original/ALOMAT.png",
       "featured": true
     },
     {
@@ -193,6 +239,7 @@
       "form": "Capsule",
       "indications": "জরায়ুর দুর্বলতা, অনিয়মিত মাসিক ও শ্বেতপ্রদর ইত্যাদি রোগে কার্যকর।",
       "usage": "১-২টি করে ক্যাপসুল দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/arecona.jpeg",
       "featured": true
     },
     {
@@ -200,7 +247,8 @@
       "name": "Aremin Capsule",
       "form": "Capsule",
       "indications": "শ্বেতপ্রদর, জরায়ুর দুর্বলতা এবং শুক্ররোগে কার্যকর।",
-      "usage": "১-২টি করে ক্যাপসুল দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "১-২টি করে ক্যাপসুল দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/AREMIN.png"
     },
     {
       "slug": "murakab-capsule",
@@ -214,7 +262,8 @@
       "name": "G-Kolin Capsule",
       "form": "Capsule",
       "indications": "রক্ত পরিষ্কারক, কোষ্ঠ পরিষ্কারক, খোস-পাচড়া, দাদ, একজিমা, চুলকানি এবং সকল প্রকার এলার্জিতে কার্যকর।",
-      "usage": "১টি করে ক্যাপসুল দিনে ১-২ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "১টি করে ক্যাপসুল দিনে ১-২ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/G-kolin.jpeg"
     },
     {
       "slug": "holy-dicure-capsule",
@@ -228,7 +277,8 @@
       "name": "Holy Munish Capsule",
       "form": "Capsule",
       "indications": "শারীরিক দুর্বলতা, স্নায়ুবিক দুর্বলতা ও রক্তস্বল্পতায় কার্যকর।",
-      "usage": "১-২টি করে ক্যাপসুল দিনে ২ বার আহারের পর অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "১-২টি করে ক্যাপসুল দিনে ২ বার আহারের পর অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Holy_Munish.png"
     },
     {
       "slug": "rowaridi-capsule",
@@ -242,7 +292,8 @@
       "name": "Cap. IG Capsule",
       "form": "Capsule",
       "indications": "শারীরিক দুর্বলতা, স্নায়ুবিক দুর্বলতা এবং সাধারণ দুর্বলতায় কার্যকর।",
-      "usage": "১টি করে ক্যাপসুল দিনে ১-২ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "১টি করে ক্যাপসুল দিনে ১-২ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Cap.-IG.png"
     },
     {
       "slug": "maxtrim-capsule",
@@ -270,14 +321,40 @@
       "name": "Sativex Capsule",
       "form": "Capsule",
       "indications": "পেটব্যথা, পাকস্থলী ও বায়ুজনিত সমস্যায় কার্যকর।",
-      "usage": "১টি করে ক্যাপসুল দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "১টি করে ক্যাপসুল দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Sativex.png"
     },
     {
       "slug": "four-health-capsule",
       "name": "Four Health Capsule",
       "form": "Capsule",
       "indications": "সাধারণ দুর্বলতা ও প্রধান অঙ্গসমূহের শক্তিবর্ধক। শরীরের স্থাভার্তা দূর করে এবং স্বাস্থ্য বৃদ্ধি করে।",
-      "usage": "১টি করে ক্যাপসুল দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "১টি করে ক্যাপসুল দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/4Health.png"
+    },
+    {
+      "slug": "xtrimo-capsule",
+      "name": "Xtrimo Capsule",
+      "form": "Capsule",
+      "indications": "শারীরিক দুর্বলতা ও ক্লান্তি দূর করতে এবং কর্মক্ষমতা বৃদ্ধিতে কার্যকর।",
+      "usage": "১টি করে ক্যাপসুল দিনে ১-২ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Xtrimo.png"
+    },
+    {
+      "slug": "fresgen-capsule",
+      "name": "Fresgen Capsule",
+      "form": "Capsule",
+      "indications": "শারীরিক দুর্বলতা ও ক্লান্তি দূর করতে এবং সতেজতা বজায় রাখতে কার্যকর।",
+      "usage": "১টি করে ক্যাপসুল দিনে ১-২ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/FRESGEN.png"
+    },
+    {
+      "slug": "herbocal-d-capsule",
+      "name": "Herbocal-D Capsule",
+      "form": "Capsule",
+      "indications": "ক্যালসিয়াম ও ভিটামিন-ডি এর ঘাটতি পূরণে এবং হাড় ও দাঁতের সুস্থতায় কার্যকর।",
+      "usage": "১টি করে ক্যাপসুল দিনে ১-২ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Herbocal-D.png"
     }
   ],
   "tablet-products": [
@@ -287,6 +364,7 @@
       "form": "Tablet",
       "indications": "কফ, কম্প এবং ব্যথা-বেদনায় কার্যকর।",
       "usage": "১-২টি করে ট্যাবলেট দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Banacol.png",
       "featured": true
     },
     {
@@ -302,7 +380,8 @@
       "name": "Frebac Tablet",
       "form": "Tablet",
       "indications": "ইউরিনারি, রেসপাইরেটরি ও জি-আই ট্র্যাক্ট ইনফেকশন, টনসিলাইটিস, ঘা, ক্ষত, টাইফয়েড ও অন্যান্য ব্যাকটেরিয়াল ইনফেকশনে কার্যকর।",
-      "usage": "১টি করে ট্যাবলেট দিনে ২ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "১টি করে ট্যাবলেট দিনে ২ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Frebac.png"
     },
     {
       "slug": "bp-care-tablet",
@@ -316,7 +395,8 @@
       "name": "Holy Nishat Tablet (Habbe Nishat)",
       "form": "Tablet",
       "indications": "যৌন দুর্বলতা, দ্রুত বীর্য খলন ও অবসাদ নিরাময়ে কার্যকর।",
-      "usage": "১টি করে ট্যাবলেট দিনে ১-২ বার হালকা গরম দুধ বা পানি সহ অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "১টি করে ট্যাবলেট দিনে ১-২ বার হালকা গরম দুধ বা পানি সহ অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/HolyNishat.png"
     },
     {
       "slug": "holy-nisal-tablet",
@@ -330,7 +410,8 @@
       "name": "Holy Asma Cure Tablet",
       "form": "Tablet",
       "indications": "হাঁপানি ও শ্বাসকষ্টে কার্যকর।",
-      "usage": "১-২টি করে ট্যাবলেট দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "১-২টি করে ট্যাবলেট দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/asma_cure.png"
     },
     {
       "slug": "melodex-tablet",
@@ -344,14 +425,48 @@
       "name": "Ranom Tablet",
       "form": "Tablet",
       "indications": "বদহজম, পেটফাঁপা, ক্ষুধামন্দা, বায়ুজনিত পেটব্যথা, পাকস্থলী ও যকৃতের দুর্বলতায় অত্যন্ত কার্যকর।",
-      "usage": "১টি করে ট্যাবলেট দিনে ২-৩ বার আহারের পূর্বে অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "১টি করে ট্যাবলেট দিনে ২-৩ বার আহারের পূর্বে অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/RANOM.png"
     },
     {
       "slug": "revotrum-tablet",
       "name": "Revotrum Tablet",
       "form": "Tablet",
       "indications": "সাধারণ দুর্বলতা, মানসিক দুর্বলতা এবং বিভিন্ন ভিটামিনের অভাব জনিত উপসর্গে কার্যকর।",
-      "usage": "১টি করে ট্যাবলেট দিনে ১-২ বার আহারের পর অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "১টি করে ট্যাবলেট দিনে ১-২ বার আহারের পর অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Revotrum.png"
+    },
+    {
+      "slug": "holy-anasol-tablet",
+      "name": "Holy Anasol Tablet (Qurs Neem)",
+      "form": "Tablet",
+      "indications": "Official product information is pending verification.",
+      "usage": "Official usage information is pending verification.",
+      "image": "/images/products/Original/anasol.png"
+    },
+    {
+      "slug": "htld-tablet",
+      "name": "H.T.L.D (Habbe Fishar)",
+      "form": "Tablet",
+      "indications": "Official product information is pending verification.",
+      "usage": "Official usage information is pending verification.",
+      "image": "/images/products/Original/H.T.L.D.png"
+    },
+    {
+      "slug": "chebula-tablet",
+      "name": "Chebula Tablet (Qurs Pechish)",
+      "form": "Tablet",
+      "indications": "Official product information is pending verification.",
+      "usage": "Official usage information is pending verification.",
+      "image": "/images/products/Original/Chebula.png"
+    },
+    {
+      "slug": "harnit-tablet",
+      "name": "Harnit Tablet",
+      "form": "Tablet",
+      "indications": "Official product information is pending verification.",
+      "usage": "Official usage information is pending verification.",
+      "image": "/images/products/Original/harnaight.png"
     }
   ],
   "clinical-items": [
@@ -361,6 +476,7 @@
       "form": "Capsule",
       "indications": "শরীরে শক্তি যোগায় এবং অজীর্ণ, পেট ফাঁপা, পেট ব্যথা ও বদহজমে কার্যকর।",
       "usage": "১টি ক্যাপসুল ৫০০ মিলি গ্রাম পানিতে মিলিয়ে সেব্য অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Alcin.png",
       "featured": true
     },
     {
@@ -369,6 +485,7 @@
       "form": "Powder",
       "indications": "রক্ত অর্শ, পায়ুপথে ব্যথা ও জ্বালা-পোড়া এবং রক্তক্ষরণে কার্যকর।",
       "usage": "ব্যবহারবিধি: এক চামচ পাউডার কয়লা দিয়ে জ্বালানো আগুনের মধ্যে ছড়িয়ে দিয়ে ব্যবহার করুন অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী।",
+      "image": "/images/products/Original/Ashonash.png",
       "featured": true
     },
     {
@@ -397,7 +514,8 @@
       "name": "Fungin Capsule",
       "form": "Capsule",
       "indications": "খোস-পাচড়া, একজিমা, দাদ, চুলকানি এবং ক্রিপ্টোকক্কাল সংক্রমণ ইত্যাদি রোগে কার্যকর।",
-      "usage": "১টি করে ক্যাপসুল দিনে ১-২ বার আহারের পর অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "১টি করে ক্যাপসুল দিনে ১-২ বার আহারের পর অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Fungin.png"
     },
     {
       "slug": "harnit-capsule",
@@ -411,7 +529,8 @@
       "name": "Herbal Magic Oil",
       "form": "Oil",
       "indications": "যে কোন ধরনের ক্ষত, পোড়া, ত্বকের ফুসকুড়ি, সাধারণ ব্যথা, দাঁতের ব্যথা, পাইলস এবং পলিপাস ইত্যাদি রোগে কার্যকর।",
-      "usage": "ব্যবহারবিধি: আক্রান্ত স্থানে ২-৩ ফোঁটা প্রয়োগ করুন অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী ব্যবহার করুন।"
+      "usage": "ব্যবহারবিধি: আক্রান্ত স্থানে ২-৩ ফোঁটা প্রয়োগ করুন অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী ব্যবহার করুন।",
+      "image": "/images/products/Original/Herbal_Magic_Oil.jpeg"
     },
     {
       "slug": "kaknaj-capsule",
@@ -425,7 +544,8 @@
       "name": "GK Triphala Capsule",
       "form": "Capsule",
       "indications": "কোষ্ঠকাঠিন্য দূরকারক, পাকস্থলির ক্ষত ও উৎকণ্ঠা কমায় এবং রোগ প্রতিরোধ ক্ষমতা বাড়ায়।",
-      "usage": "১-২টি ক্যাপসুল দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "১-২টি ক্যাপসুল দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Triphala.png"
     },
     {
       "slug": "gk-nigella-capsule",
@@ -446,7 +566,8 @@
       "name": "Power Genital Lotion",
       "form": "Lotion",
       "indications": "স্নায়ু সতেজ হয়, গোপনীয় অঙ্গ সবল হয়, রক্তনালীগুলো সবল এবং বিশেষ অঙ্গ লম্বায় ও পরিধিতে সম্প্রসারিত হয়।",
-      "usage": "ব্যবহারবিধি: সকালে ও রাত্রে প্রতিবারে ৩ ফোঁটা তেল গোপন অঙ্গে নীচ থেকে উপরে অংশে হালকাভাবে মালিশ করতে হবে।"
+      "usage": "ব্যবহারবিধি: সকালে ও রাত্রে প্রতিবারে ৩ ফোঁটা তেল গোপন অঙ্গে নীচ থেকে উপরে অংশে হালকাভাবে মালিশ করতে হবে।",
+      "image": "/images/products/Original/Power_Genital_Lotion.jpeg"
     },
     {
       "slug": "postrum-capsule",
@@ -474,7 +595,8 @@
       "name": "Uticin Capsule",
       "form": "Capsule",
       "indications": "শর্করাবিহীন বহুমুত্র ও নিদ্রায় মুত্রত্যাগে কার্যকর।",
-      "usage": "১টি করে ক্যাপসুল দিনে ২-৩ বার আহারের পর অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "১টি করে ক্যাপসুল দিনে ২-৩ বার আহারের পর অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/UTICIN.png"
     },
     {
       "slug": "b17-capsule",
@@ -488,7 +610,8 @@
       "name": "Brain Care Capsule",
       "form": "Capsule",
       "indications": "অনিদ্রা, অস্থিরতা, অবসাদ, উদ্বেগ ও বিষন্নতায় কার্যকর।",
-      "usage": "১টি করে ক্যাপসুল দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "১টি করে ক্যাপসুল দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Brain_Care.png"
     },
     {
       "slug": "gk-moringa-capsule",
@@ -509,7 +632,8 @@
       "name": "Bone Care Capsule",
       "form": "Capsule",
       "indications": "মাংসপেশীর ব্যথা, জয়েন্টের ব্যথা, অস্টিওআর্থাইটিস, গাট, স্পন্ডালাইসিস এবং লো-ব্যাক পেইন ইত্যাদি রোগে কার্যকর।",
-      "usage": "১-২টি ক্যাপসুল দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।"
+      "usage": "১-২টি ক্যাপসুল দিনে ২-৩ বার অথবা রেজিস্টার্ড চিকিৎসকের পরামর্শ অনুযায়ী সেব্য।",
+      "image": "/images/products/Original/Bone_Care.png"
     }
   ]
 }

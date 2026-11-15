@@ -14,6 +14,7 @@ interface ProductSeed {
   form: string;
   indications: string;
   usage: string;
+  image?: string;
   featured?: boolean;
 }
 
@@ -44,7 +45,7 @@ function buildProducts(): Product[] {
         shortDescription: seed.indications,
         description: seed.indications,
         overview: `A traditional Unani ${seed.form.toLowerCase()} in the ${categoryName} range. Official formulation, approval and label details are pending verification.`,
-        image: `/images/products/${seed.slug}.svg`,
+        image: seed.image ?? `/images/products/${seed.slug}.svg`,
         ingredients: [INGREDIENTS_PLACEHOLDER],
         productForm: seed.form,
         packaging: [`Standard ${seed.form.toLowerCase()} pack`],
